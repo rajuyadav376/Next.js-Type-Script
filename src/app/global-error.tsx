@@ -4,7 +4,9 @@ import "./globals.css";
 export default function GlobalError() {
   
   return (
-    <>
+    <html>
+      <body>
+    <div>
       <div className="error-container">
         <h1 className="error-title">Something went wrong!</h1>
         <p className="error-message">Please try again later.</p>
@@ -14,6 +16,8 @@ export default function GlobalError() {
           Refresh
         </button>
       </div>
-    </>
+    </div>
+      </body>
+    </html>
   );
 }

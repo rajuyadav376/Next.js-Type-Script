@@ -14,7 +14,7 @@ const ErrorSimulator = ({ message = "An error has occurred!" }: ErrorSimulatorPr
   const [error, setError] = useState(false);
 
   if (error) {
-    throw new Error(message); // Simulate an error by throwing one when the button is clicked
+    throw new Error(message); 
   }
 
   return (
